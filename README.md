@@ -21,7 +21,7 @@ MongoDB database.
 MySQL database server.
 
 
-### PROXY NGINX
+### NGINX PROXY
 Reverse proxy for domains mapping.
 
 
@@ -51,12 +51,3 @@ Redis data store.
 
 ### REDIS COMMANDER
 Web manager for Redis.
-
-
-### SENTRY
-Application error catching system.
-
-Administrator user creation command:
-```
-docker exec -it web_base-sentry sentry createuser
-```
