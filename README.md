@@ -9,6 +9,10 @@ Mail catching SMTP server.
 Memcached caching system.
 
 
+### MINIO
+Minio private cloud storage.
+
+
 ### MONGO EXPRESS
 Web manager for MongoDB.
 
