@@ -1,8 +1,10 @@
 # Base image
 FROM postgres:10.3
 
-# Init configurations
-ADD ./initdb/init-sentry-db.sql /docker-entrypoint-initdb.d/
-
 # Expose ports
 EXPOSE 5432
+
+# Healthcheck
+ADD ./docker-healthcheck.sh /usr/local/bin/docker-healthcheck
+RUN chmod +x /usr/local/bin/docker-healthcheck
+HEALTHCHECK CMD docker-healthcheck
