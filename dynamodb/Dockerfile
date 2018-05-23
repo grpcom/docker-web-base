@@ -26,4 +26,4 @@ HEALTHCHECK CMD docker-healthcheck
 
 # Startup
 ENTRYPOINT ["java"]
-CMD ["-Djava.library.path=./DynamoDBLocal_lib", "-jar", "DynamoDBLocal.jar", "-sharedDb"]
+CMD ["-Djava.library.path=./DynamoDBLocal_lib", "-jar", "DynamoDBLocal.jar", "-dbPath", "/data", "-sharedDb"]
