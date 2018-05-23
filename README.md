@@ -5,6 +5,10 @@
 DynamoDB database server.
 
 
+### DYNAMODB ADMIN
+Web manager for DynamoDB databases.
+
+
 ### MAILCATCHER
 Mail catching SMTP server.
 
