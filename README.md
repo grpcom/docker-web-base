@@ -1,6 +1,10 @@
 # BASE CONTAINERS FOR WEB DEVELOPMENT
 
 
+### DYNAMODB
+DynamoDB database server.
+
+
 ### MAILCATCHER
 Mail catching SMTP server.
 
