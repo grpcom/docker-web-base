@@ -5,4 +5,4 @@ FROM minio/minio
 EXPOSE 9000
 
 # Startup
-CMD ["server", "/data"]
+CMD ["server", "--address", ":80", "/data"]
